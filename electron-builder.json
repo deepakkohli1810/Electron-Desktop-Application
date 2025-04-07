@@ -1,0 +1,15 @@
+{
+    "addId": "com.n-ziermann.electron",
+    "files" :["dist-electron", "dist-react"],
+    "icons": "./desktop-icon.png",
+    "mac":{
+        "target":"dmg"
+    },
+    "linux": {
+        "target":"AppImage",
+        "category":"Utility"
+},
+"win":{
+    "target":["portable", "msi"]
+}
+}
